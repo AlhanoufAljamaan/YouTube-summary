@@ -1,5 +1,5 @@
 from openai import OpenAI  # Import OpenAI client
-
+# 
 # Function to split text into smaller chunks for summarization
 def split_text_for_summary(text, max_chunks=8):
     words = text.split()
